@@ -118,13 +118,3 @@ Flujo demo sugerido:
 5. Confirmar en el modal de la app y despues en MetaMask.
 6. Consultar la compra y confirmar recepcion.
 7. Abrir links de Etherscan desde el panel de evidencia.
-
-## Evidencia para presentar
-
-- Direcciones de ambos contratos en Sepolia.
-- Links de Etherscan verificados.
-- Transaccion de `setVault`.
-- Transaccion de `buyProduct`, donde se ve la llamada cross-contract a `Marketplace.createFundedPurchase`.
-- Transaccion de `confirmReceipt`, donde se ve la llamada cross-contract a `Marketplace.markCompleted` y la transferencia al vendedor.
-- Transaccion opcional de `deleteProduct`, que marca una publicacion como eliminada sin borrar el historial inmutable.
-- Captura de `npm test` y tabla `TEST_CASES.md`.
