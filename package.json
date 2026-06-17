@@ -1,0 +1,23 @@
+{
+  "name": "escrow-tp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de escrow para compra/venta con Marketplace y EscrowVault.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "build": "vite build",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "verify:sepolia": "hardhat run scripts/verify.js --network sepolia",
+    "frontend": "vite --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.18",
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4"
+  }
+}
